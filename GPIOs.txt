@@ -1,0 +1,7 @@
+RUN -> GND: Reset
+GPIO1: Light
+GPIO14: Light Override
+GPIO16: AP Mode
+GPIO20: Wifi LED G
+GPIO21: Wifi LED R
+GPIO22: Wifi LED B

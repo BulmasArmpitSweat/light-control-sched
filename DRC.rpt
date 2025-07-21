@@ -1,0 +1,42 @@
+** Drc report for light_control_sched.kicad_pcb **
+** Created on 2025-07-20T20:51:33+1000 **
+
+** Found 9 DRC violations **
+[items_not_allowed]: Items not allowed (keepout area 'RF Copper Keep Out')
+    Rule: keepout area 'RF Copper Keep Out'; error
+    @(154.2000 mm, 115.6200 mm): Pad [<no net>] of A1 on F.Paste
+[items_not_allowed]: Items not allowed (keepout area 'RF Copper Keep Out')
+    Rule: keepout area 'RF Copper Keep Out'; error
+    @(136.4200 mm, 115.6200 mm): Pad [<no net>] of A1 on F.Paste
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(150.0000 mm, 92.5000 mm): Track [Net-(A1-RUN)] on B.Cu, length 1.0000 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(119.5000 mm, 30.2500 mm): Rectangle on Edge.Cuts
+    @(149.3750 mm, 145.9000 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(119.5000 mm, 30.2500 mm): Rectangle on Edge.Cuts
+    @(140.1750 mm, 154.5000 mm): Segment of J1 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'RaspberryPi_Pico_W_SMD_HandSolder' does not match copy in library 'Module'.
+    Local override; warning
+    @(145.3100 mm, 91.4900 mm): Footprint A1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(129.0000 mm, 64.5000 mm): PCB text 'Say hi to
+JD Vegg' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.2000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(129.0000 mm, 64.5000 mm): PCB text 'Say hi to
+JD Vegg' on F.Silkscreen
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(119.5117 mm, 30.2504 mm): Zone [GND] on F.Cu, priority 0
+    @(161.0000 mm, 95.0000 mm): Pad 2 [GND] of C2 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
